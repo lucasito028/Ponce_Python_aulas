@@ -8,8 +8,8 @@ def excercise1():
     
 # 2 - Faça um Programa que peça um número e então mostre a mensagem O número informado foi [número].
 def excercise2():
-    a = int(input('Coloque o numero ai:'))
-    print("O número informado foi [{}]".format(a))
+    a = input('Coloque o numero ai:')
+    print("O número informado foi: {}".format(a))
     
 # 3 - Faça um Programa que peça dois números e imprima a soma.
 def excercise3():
@@ -22,10 +22,10 @@ def excercise3():
 def excercise4():
     n = [0, 0, 0, 0, 0]
 
-    n[0] = int(input('Coloque o primeiro nota ai: '))
-    n[1] = int(input('Coloque o Segundo nota ai: '))
-    n[2] = int(input('Coloque o Terceiro nota ai: '))
-    n[3] = int(input('Coloque o Quarta nota ai: '))
+    n[0] = float(input('Coloque o primeiro nota ai: '))
+    n[1] = float(input('Coloque o Segundo nota ai: '))
+    n[2] = float(input('Coloque o Terceiro nota ai: '))
+    n[3] = float(input('Coloque o Quarta nota ai: '))
     
     n[4] = (n[0] + n[1] + n[2] + n[3]) / 4
 
@@ -33,8 +33,8 @@ def excercise4():
     
 # 5 - Faça um Programa que converta metros para centímetros.
 def excercise5():
-    m = float(input('Coloque o primeiro nota ai:'))
+    m = float(input('Coloque a medida em metros:'))
     cm = m * 100
     print("O de m foi para {}cm".format(cm))
 
-excercise4()
+excercise2()
